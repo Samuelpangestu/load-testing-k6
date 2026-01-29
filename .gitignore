@@ -1,0 +1,29 @@
+# K6 Reports
+reports/
+*.html
+*.json
+*.csv
+k6-*.log
+
+# Test Results
+test-results/
+results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node (if using k6 extensions)
+node_modules/
+package-lock.json
